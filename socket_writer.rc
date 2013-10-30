@@ -1,0 +1,186 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,1,0,0
+ PRODUCTVERSION 0,1,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "AfterCAD Software, Inc."
+            VALUE "FileDescription", "acrtmpwriter.ax"
+            VALUE "FileVersion", "0, 1, 0, 0"
+            VALUE "InternalName", "AfterCAD RTMP Writer"
+            VALUE "LegalCopyright", "Copyright (C) 2011"
+            VALUE "OriginalFilename", "acrtmpwriter.ax"
+            VALUE "ProductName", "rtmp_writer"
+            VALUE "ProductVersion", "0, 1, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAGE_RTMP DIALOGEX 0, 0, 326, 205
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_SERVER_ADDRESS,73,146,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERVER_PORT,152,146,27,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_APP_NAME,73,161,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STREAM_NAME,73,177,65,14,ES_AUTOHSCROLL
+    CONTROL         101,IDC_STATIC,"Static",SS_BITMAP,0,0,386,40
+    GROUPBOX        "Stream Information",IDC_STATIC,6,48,181,84
+    LTEXT           "Audio stream:",IDC_STATIC,18,78,46,8
+    LTEXT           "<Unknown>",IDC_STATIC_AUDIO,72,78,90,8
+    LTEXT           "Duration:",IDC_STATIC,18,90,31,8
+    LTEXT           "00:00:00.000",IDC_STATIC_DURATION,72,90,90,8
+    LTEXT           "Avg. datarate:",IDC_STATIC,18,102,49,8
+    LTEXT           "0 kbps",IDC_STATIC_DATARATE,72,102,90,8
+    LTEXT           "Data streamed:",IDC_STATIC,18,114,51,8
+    LTEXT           "0 KB",IDC_STATIC_SIZE,72,114,90,8
+    CTEXT           "GameString RTMP Writer",IDC_STATIC,192,48,126,8
+    CTEXT           "0.1.0.0 beta",IDC_STATIC,191,60,127,8
+    CTEXT           "This software is copyright AfterCAD Software, Inc.",IDC_STATIC,194,73,114,18
+    LTEXT           "Video stream:",IDC_STATIC,18,66,45,8
+    LTEXT           "<Unknown>",IDC_STATIC_VIDEO,72,66,90,8
+    GROUPBOX        "RTMP Destination",IDC_STATIC,6,136,181,62
+    LTEXT           "Address / Port :",IDC_STATIC,18,148,52,8
+    LTEXT           ":",IDC_STATIC,143,148,8,8
+    LTEXT           "App:",IDC_STATIC,18,164,16,8
+    LTEXT           "Stream:",IDC_STATIC,17,180,26,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PAGE_RTMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 319
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_LOGO         BITMAP                  "bitmap_logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PAGE_RTMP           "RTMP Writer"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

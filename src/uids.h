@@ -1,0 +1,36 @@
+//-----------------------------------------------------------------------------
+//
+//	GameString Socket Writer
+//
+//	Author : Corey Auger
+//
+//-----------------------------------------------------------------------------
+#pragma once
+
+#include "ObjBase.h"
+
+// 7148ddd7-09ce-4bf8-86bc-6e5b71e43988
+static const GUID CLSID_SocketSendFilter = 
+{ 0x7148ddd7, 0x09ce, 0x4bf8, { 0x86, 0xbc, 0x6e, 0x5b, 0x71, 0xe4, 0x39, 0x88 } };
+
+// 41531c99-443e-4838-925b-a50cc84fbb8e
+static const GUID IID_ISocketSendFilter = 
+{ 0x41531c99, 0x443e, 0x4838, { 0x92, 0x5b, 0xa5, 0x0c, 0xc8, 0x4f, 0xbb, 0x8e } };
+
+// 16b92930-acfc-4b27-b33c-73dda2b9b91d
+static const GUID CLSID_ISocketSendInputPin = 
+{ 0x16b92930, 0xacfc, 0x4b27, { 0xb3, 0x3c, 0x73, 0xdd, 0xa2, 0x9b, 0x9b, 0x1d } };
+
+// c10f5456-b33b-4d64-a9c3-7a59c112bf74
+static const GUID IID_ISocketSendInputPin = 
+{ 0xc10f5456, 0xb33b, 0x4d64, { 0xa9, 0xc3, 0x7a, 0x59, 0xc1, 0x12, 0xbf, 0x74 } };
+
+/*
+// {42E069B2-4106-4066-B070-5FB93DC9220D}
+static const GUID CLSID_SocketSendFilterPropertyPage = 
+{ 0x42e069b2, 0x4106, 0x4066, { 0xb0, 0x70, 0x5f, 0xb9, 0x3d, 0xc9, 0x22, 0xd } };
+
+// {B19C6CF7-416D-4D4E-8EF3-06B3BF4D3653}
+static const GUID IID_SocketSendFilterPropertyPage = 
+{ 0xb19c6cf7, 0x416d, 0x4d4e, { 0x8e, 0xf3, 0x6, 0xb3, 0xbf, 0x4d, 0x36, 0x53 } };
+*/
