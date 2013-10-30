@@ -18,7 +18,8 @@ This filter provides a much more flexible and free form way of Interprocess Comm
 The only requirement are the direct show base classes.  Sockets are winsock implementation.
 
 # Usage
-Currently the filter has the listening port hardcoded.  You could add this as an option to the filter option page if you so desire.  One this filter is up and running you can connect to it via the port number and start to inject your FLV.
+Currently the filter has the listening port hardcoded.  You could add this as an option to the filter option page 
+if you so desire.  Once this filter is up and running you can connect to it via the port number and start to injesting your FLV.
 
 # Example
 Here is an example client written in C# that will connect and write the FLV to disk.
